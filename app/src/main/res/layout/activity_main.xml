@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nykim.prjuritest.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전화번호 입력 후 전화걸기 버튼을 클릭하세요." />
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="tel: " />
+
+        <Button
+            android:id="@+id/btCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전화걸기" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="웹주소 입력 후 접속하기 버튼을 클릭하세요." />
+
+        <EditText
+            android:id="@+id/etWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="http:// " />
+
+        <Button
+            android:id="@+id/btWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="접속하기" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
